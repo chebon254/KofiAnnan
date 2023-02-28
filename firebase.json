@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "KofiAnnan",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
