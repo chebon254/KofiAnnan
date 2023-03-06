@@ -153,8 +153,8 @@ nav {
 /* == || Header == */
 /* == BANNER == */
 section.banner {
-    height: 100vh;
-    max-height: 800px;
+    height: fit-content;
+    min-height: 800px;
     background-image: url('img/UL\ Monument.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,6 +164,7 @@ section.banner {
     background-color: #0000009c;
     height: 100%;
     width: 100%;
+    min-height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1018,12 +1019,13 @@ footer {
         justify-content: start;
         width: 100% !important;
         height: 50px;
-        color: #ffffff;
+        color: #1C1B1F;
         padding: 0px 50px 0px;
     }
 
     .links a:hover {
-        background-color: #f1f1f1;
+        background-color: #DE4404;
+        color: #ffffff;
     }
 
     .links span {
@@ -1042,7 +1044,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #ffffff;
+        color: #1C1B1F;
         font-size: 18px;
         position: absolute;
         top: 12px;
@@ -1060,11 +1062,12 @@ footer {
         justify-content: space-between;
     }
 
+
     .menu-bar {
         display: none !important;
     }
 
-    ofi Annan Institute .cancel {
+    .cancel{
         display: none;
     }
 
