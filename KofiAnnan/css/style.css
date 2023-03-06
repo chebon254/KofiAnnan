@@ -38,8 +38,8 @@ html {
 /* == || SCROLL BAR == */
 /* == GENERAL == */
 .container {
-    width: 100% !important;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1400px !important;
     margin: auto;
     padding: 0px 15px;
 }
@@ -524,7 +524,7 @@ section.banner {
     line-height: 44px;
     text-align: center;
     color: #1C1B1F;
-    margin: 10px 0px;
+    margin: 10px auto;
 }
 
 .offer-info h3 {
@@ -535,7 +535,7 @@ section.banner {
     line-height: 36px;
     text-align: center;
     color: #1C1B1F;
-    margin: 10px 0px;
+    margin: 10px auto;
 }
 
 .offer-info p {
@@ -566,18 +566,93 @@ section.banner {
 }
 
 /* == || OFFERS == */
-/* ==  == */
+/* == Projects == */
+.projects {
+    padding: 60px 0px;
+}
+
+.projects-head {
+    padding: 40px 0px 20px;
+}
+
+.projects-head h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #1C1B1F;
+}
+
+.projects-content {
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project {
+    height: fit-content;
+    width: 100%;
+    max-width: 584px;
+    min-width: 280px;
+    margin: 10px;
+    border: 1px solid #E0E2F1;
+    border-radius: 5px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project .project-info {
+    padding: 50px 30px;
+}
+
+.project-info h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1C1B1F;
+    margin: 10px 0px;
+}
+
+.project-info p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1B1F;
+    margin: 10px 0px;
+}
+
+.project-info button {
+    outline: none;
+    border: 0;
+    width: 95%;
+    height: 50px;
+    background: #25518C;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FCFCFC;
+    margin: 10px auto;
+}
+
+/* == || Projects == */
 /* ==  == */
 /* ==  == */
 /* == RESPONSIVE == */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 994px) {
-    .container {
-        margin: auto;
-        min-width: 90%;
-        max-width: 95%;
-    }
-
     .links {
         height: 100vh;
         width: 320px;
@@ -635,12 +710,6 @@ section.banner {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .container {
-        margin: auto;
-        min-width: 85%;
-        max-width: 1200px !important;
-    }
-
     .links {
         padding: 0px 20px;
         display: block;
