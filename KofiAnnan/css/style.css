@@ -280,7 +280,9 @@ section.banner {
     padding: 20px;
     margin: 10px;
 }
-
+.bottom .up-card img{
+    width: 100%;
+}
 .up-card-info {
     display: flex;
     align-items: center;
@@ -683,7 +685,9 @@ section.banner {
     min-width: 280px;
     margin: 10px;
 }
-
+.think-tank-card img{
+    width: 100%;
+}
 .think-tank-info {
     padding: 100px 0px 50px;
 }
@@ -799,6 +803,12 @@ section.contact {
 
 .contact-details iframe {
     margin: 30px 0px 10px;
+    width: 100%;
+    max-width: 560px; 
+    min-width: 260px;
+    height: 100%;
+    max-height: 287px; 
+    aspect-ratio: 560/287;
 }
 
 .contact-form form .names {
@@ -908,6 +918,7 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .col {
