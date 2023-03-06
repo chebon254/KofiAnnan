@@ -99,9 +99,7 @@ header {
 }
 
 nav {
-    height: 50px;
     width: 100%;
-    background: #25518C;
     border-top: 1px solid rgba(28, 27, 31, 0.2);
 }
 
@@ -140,13 +138,28 @@ nav {
     color: red;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #25518C;
+}
+
+.nav-logo img {
+    margin: 0px 10px 0px;
+}
+
 .menu-bar {
     padding: 5px;
 }
 
 .menu-btn {
     font-size: 28px;
-    color: #ffffff;
     padding: 10px 20px;
 }
 
@@ -232,7 +245,6 @@ section.banner {
 .upcoming-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -251,9 +263,6 @@ section.banner {
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
-    /* identical to box height, or 150% */
-
-
     color: #1C1B1F;
 }
 
@@ -263,7 +272,6 @@ section.banner {
     padding: 25px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -281,9 +289,11 @@ section.banner {
     padding: 20px;
     margin: 10px;
 }
-.bottom .up-card img{
+
+.bottom .up-card img {
     width: 100%;
 }
+
 .up-card-info {
     display: flex;
     align-items: center;
@@ -686,9 +696,11 @@ section.banner {
     min-width: 280px;
     margin: 10px;
 }
-.think-tank-card img{
+
+.think-tank-card img {
     width: 100%;
 }
+
 .think-tank-info {
     padding: 100px 0px 50px;
 }
@@ -805,10 +817,10 @@ section.contact {
 .contact-details iframe {
     margin: 30px 0px 10px;
     width: 100%;
-    max-width: 560px; 
+    max-width: 560px;
     min-width: 260px;
     height: 100%;
-    max-height: 287px; 
+    max-height: 287px;
     aspect-ratio: 560/287;
 }
 
@@ -936,7 +948,7 @@ footer {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 610;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 36px;
     color: #FCFCFC;
     margin: 10px 0px;
@@ -956,6 +968,7 @@ footer {
 .col.three {
     max-width: 300px;
     min-width: 280px;
+    margin: 10px;
 }
 
 .col h4 {
@@ -963,10 +976,13 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
     color: #FCFCFC;
+    margin: 10px 0px;
 }
-
+.col ul{
+    margin: 30px 0px 0px;
+}
 .col ul li {
     padding: 5px 0px;
     display: flex;
@@ -990,15 +1006,33 @@ footer {
     font-size: 14px;
     line-height: 21px;
     color: #FCFCFC;
+    margin: 10px;
 }
 
 /* == || Footer == */
 /* == RESPONSIVE == */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 994px) {
+    header {
+        display: none;
+    }
+
+    nav {
+        height: 120px;
+    }
+
+    .nav.logo {
+        display: block;
+        background: #ffffff;
+    }
+
+    .menu-btn {
+        color: #1C1B1F;
+    }
+
     .links {
         height: 100vh;
-        width: 320px;
+        width: 100%;
         position: fixed;
         top: 0;
         right: -100%;
@@ -1050,6 +1084,12 @@ footer {
         top: 12px;
         right: 20px;
     }
+    .upcoming-container {
+        justify-content: space-evenly;
+    }
+    .up-left .bottom {
+        justify-content: space-evenly;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1062,18 +1102,36 @@ footer {
         justify-content: space-between;
     }
 
+    nav {
+        height: 50px;
+        background: #25518C;
+    }
+
+    .menu-btn {
+        color: #ffffff;
+    }
+
+    .nav.logo {
+        display: none;
+    }
 
     .menu-bar {
         display: none !important;
     }
 
-    .cancel{
+    .cancel {
         display: none;
     }
 
     form .control-group.name {
         width: 100%;
         max-width: 280px;
+    }
+    .upcoming-container {
+        justify-content: space-between;
+    }
+    .up-left .bottom {
+        justify-content: space-between;
     }
 }
 
