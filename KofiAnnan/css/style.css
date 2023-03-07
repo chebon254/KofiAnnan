@@ -199,12 +199,7 @@ section.banner {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 90px;
-    /* or 150% */
-
     text-align: center;
-
     color: #FCFCFC;
 }
 
@@ -212,12 +207,7 @@ section.banner {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    /* or 150% */
-
     text-align: center;
-
     color: #FCFCFC;
     margin: 20px 0px;
 }
@@ -228,8 +218,6 @@ section.banner {
     justify-content: center;
     align-items: center;
     padding: 16px 24px;
-    width: 384px;
-
     background: #FCFCFC;
     border-radius: 5px;
     margin: auto;
@@ -261,14 +249,13 @@ section.banner {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
     color: #1C1B1F;
 }
 
 .up-left .bottom {
     width: 100%;
     max-width: 1000px;
+    min-width: 320px;
     padding: 25px 0px;
     display: flex;
     align-items: center;
@@ -285,13 +272,68 @@ section.banner {
     min-height: 278px;
     width: fit-content;
     max-width: 384px;
-    min-width: 280px;
+    min-width: 260px;
     padding: 20px;
-    margin: 10px;
+    position: relative;
+    margin: 10px 5px;
 }
 
 .bottom .up-card img {
     width: 100%;
+}
+
+.bottom .up-card .floating-card {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    height: fit-content;
+    width: 80%;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.floating-card .hold {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.floating-card span.price {
+    height: 40px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #25518C;
+}
+
+.floating-card span.share,
+.floating-card span.love {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0px 8px;
+    color: #1C1B1F;
+}
+
+.floating-card span i {
+    font-size: 20px;
+    color: #1C1B1F;
 }
 
 .up-card-info {
@@ -980,9 +1022,11 @@ footer {
     color: #FCFCFC;
     margin: 10px 0px;
 }
-.col ul{
+
+.col ul {
     margin: 30px 0px 0px;
 }
+
 .col ul li {
     padding: 5px 0px;
     display: flex;
@@ -1084,12 +1128,58 @@ footer {
         top: 12px;
         right: 20px;
     }
+
+    .banner-text h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .banner-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .banner-text button {
+        width: 90%;
+        max-width: 320px;
+    }
+
     .upcoming-container {
         justify-content: space-evenly;
     }
+
+    .up-left .top h1 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
     .up-left .bottom {
         justify-content: space-evenly;
     }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 400px) {
+    .banner-text h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        line-height: 33px;
+    }
+
+    .banner-text button {
+        width: 100%;
+        max-width: 384px;
+    }
+
+    .up-left .top h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1123,13 +1213,35 @@ footer {
         display: none;
     }
 
+    .banner-text h1 {
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .banner-text p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .banner-text button {
+        width: 100%;
+        max-width: 384px;
+    }
+
+    .up-left .top h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
     form .control-group.name {
         width: 100%;
         max-width: 280px;
     }
+
     .upcoming-container {
         justify-content: space-between;
     }
+
     .up-left .bottom {
         justify-content: space-between;
     }
