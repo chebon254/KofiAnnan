@@ -256,7 +256,7 @@ section.banner {
     width: 100%;
     max-width: 1000px;
     min-width: 320px;
-    padding: 25px 0px;
+    padding: 25px 5px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -395,7 +395,6 @@ section.banner {
 
 .bottom-more button {
     padding: 16px 24px;
-    width: 384px;
     height: 50px;
     background: #FCFCFC;
     border-radius: 5px;
@@ -1131,7 +1130,7 @@ footer {
 
     .banner-text h1 {
         font-size: 40px;
-        line-height: 45px;
+        line-height: 50px;
     }
 
     .banner-text p {
@@ -1156,6 +1155,12 @@ footer {
     .up-left .bottom {
         justify-content: space-evenly;
     }
+
+    .bottom-more button {
+        width: 100%;
+        max-width: 384px;
+        min-width: 280px;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -1178,6 +1183,16 @@ footer {
     .up-left .top h1 {
         font-size: 30px;
         line-height: 35px;
+    }
+
+    .bottom .up-card {
+        max-width: 320px;
+    }
+
+    .bottom-more button {
+        width: 90%;
+        max-width: 320px;
+        min-width: 250px;
     }
 
 }
@@ -1231,6 +1246,12 @@ footer {
     .up-left .top h1 {
         font-size: 40px;
         line-height: 60px;
+    }
+
+    .bottom-more button {
+        width: 100%;
+        max-width: 384px;
+        min-width: 280px;
     }
 
     form .control-group.name {
