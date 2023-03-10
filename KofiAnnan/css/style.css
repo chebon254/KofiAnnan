@@ -32,7 +32,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #fd3e45;
+    background: #25518C;
 }
 
 /* == || SCROLL BAR == */
@@ -1444,16 +1444,18 @@ section.team {
     justify-content: flex-start;
     margin: 10px 0px;
 }
-.member-info a svg{
+
+.member-info a svg {
     margin: 0px 0px 0px 20px;
 }
+
 section.contact.about,
 section.contact.about .detail,
 section.contact.about .contact-form input,
-section.contact.about .contact-form textarea
-{
+section.contact.about .contact-form textarea {
     background-color: #ffffff !important;
 }
+
 section.contact.about .detail
 /* == || ABOUT == */
 
