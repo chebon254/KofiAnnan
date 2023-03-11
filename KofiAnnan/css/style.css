@@ -2209,7 +2209,13 @@ section.filter {
     border: 1px solid #E0E2F1;
     background-color: #ffffff;
     margin: 10px 20px 10px 0px;
-    padding: 10px 20px;
+    padding: 5px 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9A9A9A;
 }
 
 .filter-form form select option {
@@ -2260,17 +2266,20 @@ section.filter {
     color: #25518C;
     cursor: pointer;
 }
+
 .tab-btns button:hover,
-.tab-btns button.active{
+.tab-btns button.active {
     border: 2px solid #DE4404 !important;
     color: #DE4404 !important;
     transition: all 100ms !important;
 }
-.tab-slide{
+
+.tab-slide {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .tab-card {
     background: #ffffff;
     /* shadow */
@@ -2397,6 +2406,7 @@ section.filter {
     line-height: 24px;
     color: #1C1B1F;
 }
+
 .filter-top .pagination {
     width: fit-content;
     margin: auto;
@@ -2404,6 +2414,7 @@ section.filter {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 40px 0px 20px;
 }
 
 .filter-top .pagination .page {
@@ -2414,6 +2425,7 @@ section.filter {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .filter-top .pagination .page span {
@@ -2423,6 +2435,7 @@ section.filter {
     font-size: 20px;
     line-height: 24px;
     color: #1C1B1F;
+    cursor: pointer;
 }
 
 .filter-top .pagination .page.more {
@@ -2542,7 +2555,8 @@ section.filter {
         max-width: 384px;
         min-width: 280px;
     }
-    .tab-slide{
+
+    .tab-slide {
         justify-content: space-evenly;
     }
 }
@@ -2578,7 +2592,8 @@ section.filter {
         max-width: 320px;
         min-width: 250px;
     }
-    .tab-slide{
+
+    .tab-slide {
         justify-content: space-evenly !important;
     }
 }
@@ -2652,7 +2667,8 @@ section.filter {
     .up-left .bottom {
         justify-content: space-between;
     }
-    .tab-slide{
+
+    .tab-slide {
         justify-content: space-evenly;
     }
 }
