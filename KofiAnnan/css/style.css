@@ -127,15 +127,18 @@ nav {
     font-size: 16px;
     font-weight: 500;
     color: #ffffff;
-    padding: 10px 10px;
+    padding: 13px 10px;
+    border-bottom: 4px solid transparent;
 }
 
-.links .active-link {
-    color: red;
+.links a.active {
+    color: #ffffff;
+    border-bottom: 4px solid #ffffff;
 }
 
 .links a:hover {
     color: red;
+    border-bottom: 4px solid red;
 }
 
 .nav-logo {
