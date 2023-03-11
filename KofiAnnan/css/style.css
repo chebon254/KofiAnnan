@@ -1470,6 +1470,9 @@ section.contact.about .contact-form textarea {
 
 
 /* == NEWS == */
+section.banner.news-banner {
+    background-image: url('img/news\ banner.png') !important;
+}
 section.news {
     padding: 60px 0px;
 }
@@ -2063,9 +2066,11 @@ section.news .news-container .right {
     line-height: 49px;
     color: #1C1B1F;
 }
-.comment-form{
+
+.comment-form {
     padding: 10px 0px;
 }
+
 .comment-form form .control-group {
     width: 100%;
     max-width: 700px;
@@ -2079,6 +2084,85 @@ section.news .news-container .right {
     max-width: 700px;
     min-width: 260px;
     background-color: #ffffff;
+}
+
+.comments-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comments-head span:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1C1B1F;
+}
+
+.comments-head span:nth-child(2) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #1C1B1F;
+}
+
+.persons-comments {
+    padding: 20px 0px;
+}
+
+.comment {
+    width: 100%;
+    max-width: 700px;
+    min-width: 260px;
+    padding: 20px 0px;
+}
+
+.comment .top-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.comment .top-comment span:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C1B1F;
+}
+
+.comment .top-comment span:nth-child(2) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9A9A9A;
+}
+
+.comment-msg {
+    padding: 5px 0px;
+}
+
+.comment-msg p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1C1B1F;
+}
+
+.commented-reply,
+.reply-msgs {
+    padding: 0px 0px 0px 20px;
 }
 
 /* == || NEWS == */
