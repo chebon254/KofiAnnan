@@ -13,3 +13,20 @@ cancelBtn.onclick = ()=>{
     menu.classList.remove("active");
     menuBtn.classList.remove("hide");
 }
+
+/* === Overlay === */
+// Select the element you want to listen to
+const expert_member = document.getElementById('expert-btn');
+const expert_member_close = document.getElementById('cancel-expert');
+
+// Add an event listener to the element
+expert_member.addEventListener('click', () => {
+  document.getElementById("single-overlay").style.display = "block";
+});
+
+// Add an event listener to the element
+expert_member_close.addEventListener('click', () => {
+  document.getElementById("single-overlay").style.display = "none";
+});
+
+/* === ||Overlay === */
