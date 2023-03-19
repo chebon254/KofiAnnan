@@ -3025,8 +3025,10 @@ button.btn-brochure {
 .prog-txt table tbody tr:nth-child(2) td,
 .prog-txt table tbody tr:nth-child(3) td,
 .prog-txt table tbody tr:nth-child(4) td,
-.prog-txt table tbody tr:nth-child(5) td {
-    padding: 8px 40px;
+.prog-txt table tbody tr:nth-child(5) td,
+.prog-txt table tbody tr:nth-child(6) td,
+.prog-txt table tbody tr:nth-child(7) td {
+    padding: 8px 30px;
 }
 
 .prog-txt table tbody tr:nth-child(2) {
@@ -3055,12 +3057,14 @@ button.btn-brochure {
     padding: 80px 0px;
     background: #25518C;
 }
+
 .prog-carding-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .prog-card {
     min-height: 176px;
     width: 100%;
@@ -3072,12 +3076,15 @@ button.btn-brochure {
     justify-content: center;
     background-color: #ffffff;
 }
-.card-cont{
+
+.card-cont {
     text-align: center;
 }
-.prog-required{
+
+.prog-required {
     padding: 20px 0px;
 }
+
 .prog-card span:nth-child(1) {
     font-family: 'Montserrat';
     font-style: normal;
@@ -3097,6 +3104,228 @@ button.btn-brochure {
     line-height: 150%;
     text-align: center;
     color: #1C1B1F;
+}
+
+.btn-curri {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn-curri button {
+    height: 40px;
+    width: 280px;
+    border-radius: 0px;
+    background: #25518C;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FCFCFC;
+}
+
+.prog-info-container.next-to {
+    padding: 40px 0px;
+}
+
+h2.right-text,
+p.right-text {
+    text-align: right;
+}
+
+table,
+th,
+td {
+    border: none !important;
+    border-collapse: collapse;
+}
+
+table.bottom {
+    font-size: 14px !important;
+}
+
+table.bottom tbody tr:nth-child(2) {
+    background: #9A9A9A;
+    color: #ffffff;
+}
+
+table.bottom tbody tr:nth-child(3) {
+    background: #ffffff;
+}
+
+table.bottom tbody tr:nth-child(4) {
+    background: #EFF1FB;
+}
+
+table.bottom tbody tr:nth-child(5) {
+    background: #ffffff;
+}
+
+table.bottom tbody tr:nth-child(6) {
+    background: #EFF1FB;
+}
+
+table.bottom tbody tr:nth-child(7) {
+    background: #ffffff;
+}
+
+section.prog-application {
+    padding: 80px 0px;
+    background-image: url('img/prog\ apply.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.application-form {
+    padding: 40px;
+    width: 100%;
+    max-width: 530px;
+    min-height: 511px;
+    background: rgba(37, 81, 140, 0.9);
+    box-shadow: 0px 3px 20px rgba(2, 2, 2, 0.1);
+}
+
+form.apply h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FCFCFC;
+    margin-bottom: 30px;
+}
+
+form.apply .control-group {
+    width: 100%;
+    max-width: 450px;
+    min-width: 260px;
+    padding: 10px 0px;
+}
+
+form.apply .control-group label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFC;
+    margin-bottom: 10px;
+}
+
+form.apply .control-group select,
+form.apply .control-group option {
+    width: 100%;
+    max-width: 450px;
+    height: 50px;
+    border: 1px solid #E0E2F1;
+    padding: 12px 30px;
+    background: rgba(37, 81, 140, 0.9);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFC;
+}
+
+form.apply .control-group input::placeholder,
+form.apply .control-group textarea::placeholder {
+    color: #D9D9D9;
+}
+
+form.apply .control-group.checkbox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 10px 10px 10px 35px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+form.apply .control-group.checkbox label {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0px 0px 0px 6px;
+    color: #ffffff !important;
+}
+
+
+/* Hide the browser's default checkbox */
+.control-group.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.control-group.checkbox .checkmark {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 18px;
+    width: 18px;
+    background: rgba(37, 81, 140, 0.9);
+    border: 2px solid #ffffff;
+}
+
+/* On mouse-over, add a grey background color */
+.control-group.checkbox .container-check:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.control-group.checkbox .container-check input:checked~.checkmark {
+    background: rgba(37, 81, 140, 0.9);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.control-group.checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.control-group.checkbox .container-check input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.control-group.checkbox .container-check .checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+form.apply .control-group button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #25518C;
+    height: 50px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 1px;
+    margin-top: 30px;
 }
 
 /* == || PROGRAM == */
