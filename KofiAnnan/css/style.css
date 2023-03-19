@@ -2893,6 +2893,227 @@ section.courses {
 
 
 
+/* == PROGRAM == */
+section.teaching-banner {
+    background-image: url('img/masters.png') !important;
+}
+
+section.program-info.top {
+    padding: 60px 0px 0px;
+}
+
+section.program-info.bottom {
+    padding: 0px 0px 60px;
+}
+
+.prog-btn {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.prog-btn button {
+    width: fit-content;
+    padding: 0px 20px;
+    margin-right: 20px;
+    outline: none;
+    height: 40px;
+    border: 3px solid #25518C;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #25518C;
+    background-color: #ffffff;
+}
+
+.prog-head {
+    padding: 20px 0px;
+}
+
+.prog-head h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #25518C;
+}
+
+.prog-txt p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1B1F;
+    margin: 20px 0px;
+}
+
+.curriculum {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.prog-txt.left,
+.prog-txt.right {
+    width: 100%;
+    max-width: 600px;
+    min-width: 280px;
+}
+
+.prog-txt p.elective,
+.prog-txt ul li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1B1F;
+    margin: 4px 0px;
+}
+
+button.btn-brochure {
+    width: 100%;
+    height: 40px;
+    background: #25518C;
+    outline: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FCFCFC;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.prog-txt ul {
+    padding: 0px 0px 0px 20px;
+}
+
+.prog-txt ul li {
+    list-style: disc !important;
+}
+
+.prog-txt table {
+    margin: 0px 0px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.prog-txt table tbody tr:nth-child(1) {
+    background: #162F52;
+    padding: 8px 20px;
+}
+
+.prog-txt table tbody tr:nth-child(1) td {
+    background: #162F52;
+    padding: 8px 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.prog-txt table tbody tr:nth-child(2) td,
+.prog-txt table tbody tr:nth-child(3) td,
+.prog-txt table tbody tr:nth-child(4) td,
+.prog-txt table tbody tr:nth-child(5) td {
+    padding: 8px 40px;
+}
+
+.prog-txt table tbody tr:nth-child(2) {
+    background: #EFF1FB;
+}
+
+.prog-txt table tbody tr:nth-child(3) {
+    background: #ffffff;
+}
+
+.prog-txt table tbody tr:nth-child(4) {
+    background: #EFF1FB;
+}
+
+.prog-txt table tbody tr:nth-child(5) {
+    background: #ffffff;
+}
+
+.prog-required ol {
+    list-style: upper-roman !important;
+    padding: 20px 0px 20px 20px;
+}
+
+.prog-carding {
+    margin: 20px 0px;
+    padding: 80px 0px;
+    background: #25518C;
+}
+.prog-carding-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.prog-card {
+    min-height: 176px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 280px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.card-cont{
+    text-align: center;
+}
+.prog-required{
+    padding: 20px 0px;
+}
+.prog-card span:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #1C1B1F;
+
+}
+
+.prog-card span:nth-child(3) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #1C1B1F;
+}
+
+/* == || PROGRAM == */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
