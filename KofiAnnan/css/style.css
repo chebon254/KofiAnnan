@@ -4013,7 +4013,8 @@ section.single-support {
     background: rgba(37, 81, 140, 0.9);
     box-shadow: 0px 3px 20px rgba(2, 2, 2, 0.1);
 }
-.support-form form{
+
+.support-form form {
     height: 100%;
     width: 100%;
 }
@@ -4026,18 +4027,18 @@ h3.support-title {
     line-height: 37px;
     margin: 0px 0px 30px;
     color: #FCFCFC;
-  }
-  
-  form.support label {
+}
+
+form.support label {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #FCFCFC;
-  }
-  
-  form.support input {
+}
+
+form.support input {
     width: 100%;
     height: 50px;
     border: 1px solid #E0E2F1;
@@ -4050,9 +4051,9 @@ h3.support-title {
     line-height: 150%;
     color: #FCFCFC;
     border-radius: 0;
-  }
-  
-  form.support button {
+}
+
+form.support button {
     width: 100%;
     height: 50px;
     background: #FCFCFC;
@@ -4065,20 +4066,20 @@ h3.support-title {
     font-size: 18px;
     line-height: 150%;
     color: #25518C;
-  }
-  
-  form.support .control-group {
+}
+
+form.support .control-group {
     width: 100% !important;
     max-width: 800px;
     padding: 10px 0px !important;
-  }
-  
-  form.support .control-group input::placeholder,
-  form.support .control-group select {
+}
+
+form.support .control-group input::placeholder,
+form.support .control-group select {
     color: #D9D9D9;
-  }
-  
-  form.support .control-group.checkbox {
+}
+
+form.support .control-group.checkbox {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -4090,27 +4091,27 @@ h3.support-title {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  form.support .control-group.checkbox label {
+}
+
+form.support .control-group.checkbox label {
     font-size: 12px;
     line-height: 18px;
     margin: 0px 0px 0px 20px;
     color: #ffffff !important;
-  }
-  
-  
-  /* Hide the browser's default checkbox */
-  form.support .control-group.checkbox input {
+}
+
+
+/* Hide the browser's default checkbox */
+form.support .control-group.checkbox input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  form.support .control-group.checkbox .checkmark {
+}
+
+/* Create a custom checkbox */
+form.support .control-group.checkbox .checkmark {
     position: absolute;
     top: 15px;
     left: 10px;
@@ -4118,32 +4119,32 @@ h3.support-title {
     width: 18px;
     background: rgba(37, 82, 140, 0);
     border: 2px solid #ffffff;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  form.support .control-group.checkbox .container-check:hover input~.checkmark {
+}
+
+/* On mouse-over, add a grey background color */
+form.support .control-group.checkbox .container-check:hover input~.checkmark {
     background-color: #ccc;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  form.support .control-group.checkbox .container-check input:checked~.checkmark {
+}
+
+/* When the checkbox is checked, add a blue background */
+form.support .control-group.checkbox .container-check input:checked~.checkmark {
     background: rgba(37, 82, 140, 0);
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  form.support .control-group.checkbox .checkmark:after {
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+form.support .control-group.checkbox .checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  form.support .control-group.checkbox .container-check input:checked~.checkmark:after {
+}
+
+/* Show the checkmark when checked */
+form.support .control-group.checkbox .container-check input:checked~.checkmark:after {
     display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  form.support .control-group.checkbox .container-check .checkmark:after {
+}
+
+/* Style the checkmark/indicator */
+form.support .control-group.checkbox .container-check .checkmark:after {
     left: 4px;
     top: 1px;
     width: 4px;
@@ -4153,8 +4154,8 @@ h3.support-title {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
-  
+}
+
 .single-support-container {
     display: flex;
     align-items: center;
@@ -4178,7 +4179,112 @@ h2.outreach-single-title {
 
 
 
+/* == RESEARCH == */
+section.research-banner {
+    background-image: url('img/research.png') !important;
+}
 
+.research-content {
+    padding: 60px 0px;
+}
+
+.research-head {
+    padding: 20px 0px;
+    border-bottom: 1px solid #9A9A9A;
+}
+
+.research-head h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1C1B1F;
+}
+
+.research-information {
+    margin: 40px 0px;
+    min-height: 620px;
+    max-width: 1240px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.research-information.one {
+    background-image: url('img/project\ one.png');
+}
+.research-information.two {
+    background-image: url('img/complete\ project.png');
+}
+.research-information.three {
+    background-image: url('img/soilder.png');
+}
+.research-card {
+    max-width: 620px;
+    min-width: 280px;
+    min-height: 310px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #EFF1FB;
+    padding: 40px;
+}
+
+.research-status {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 179px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #25518C;
+}
+
+.research-status p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FCFCFC;
+
+}
+
+.research-card h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.research-card p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.research-card a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #25518C;
+}
+
+/* == || RESEARCH == */
 
 
 
