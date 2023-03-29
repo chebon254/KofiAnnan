@@ -1,34 +1,139 @@
-.pagination-boxes .pagination {
-  width: fit-content;
-  margin: auto;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 40px 0px 20px;
-}
 
-.pagination-boxes .pagination .page {
-  width: 40px;
-  height: 40px;
-  background: #EFF1FB;
-  margin: 0px 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.pagination-boxes .pagination .page span {
+h2.support-title {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #1C1B1F;
-  cursor: pointer;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  margin: 0px 0px 30px;
+  color: #FCFCFC;
 }
 
-.pagination-boxes .pagination .page.more {
-  width: 82px;
+form.support label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FCFCFC;
+}
+
+form.support select,
+form.support option,
+form.support input {
+  width: 731px;
+  height: 50px;
+  border: 1px solid #E0E2F1;
+  padding: 12px 20px;
+  background-color: rgba(37, 81, 140, 0.9);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FCFCFC;
+  border-radius: 0;
+}
+
+form.support button {
+  width: 100%;
+  height: 50px;
+  background: #FCFCFC;
+  outline: none;
+  border: 0px;
+  border-radius: 0px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #25518C;
+}
+
+form.support .control-group {
+  width: 100% !important;
+  max-width: 800px;
+  padding: 10px 0px !important;
+}
+
+form.support .control-group input::placeholder,
+form.support .control-group select {
+  color: #D9D9D9;
+}
+
+form.support .control-group.checkbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px 10px 10px 35px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+form.support .control-group.checkbox label {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0px 0px 0px 20px;
+  color: #ffffff !important;
+}
+
+
+/* Hide the browser's default checkbox */
+form.support .control-group.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+form.support .control-group.checkbox .checkmark {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  height: 18px;
+  width: 18px;
+  background: rgba(37, 82, 140, 0);
+  border: 2px solid #ffffff;
+}
+
+/* On mouse-over, add a grey background color */
+form.support .control-group.checkbox .container-check:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+form.support .control-group.checkbox .container-check input:checked~.checkmark {
+  background: rgba(37, 82, 140, 0);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+form.support .control-group.checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+form.support .control-group.checkbox .container-check input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+form.support .control-group.checkbox .container-check .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
