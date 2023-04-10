@@ -4906,8 +4906,180 @@ section.think-banner {
 
 /* == || THINK TANK == */
 
+/* == THINK TANK SINGLE == */
+section.think-single-banner {
+    background-image: url('img/think\ single\ banner.png') !important;
+}
 
+.think-single {
+    padding: 80px 0px;
+}
 
+h2.think-head {
+    margin: 10px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #25518C;
+
+}
+
+p.think-p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1B1F;
+    margin: 10px 0px;
+}
+
+.takeaway-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.takeaway-card {
+    height: 380px;
+    width: 380px;
+    border-radius: 50% !important;
+    background: #EFF1FB;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 60px;
+    margin: 15px 10px;
+}
+
+.card-center h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #1C1B1F;
+    margin: 20px 0px;
+    width: 100%;
+    max-width: 280px;
+}
+
+.card-center p {
+    width: 100%;
+    max-width: 280px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #00000A;
+}
+
+.comm-engage {
+    padding: 10px 0px;
+}
+
+.comm-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.comm-card {
+    width: 100%;
+    min-width: 280px;
+    max-width: 600px;
+    min-height: 147px;
+    background: #EFF1FB;
+    padding: 20px;
+}
+
+.comm-card h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1C1B1F;
+    margin: 0px 0px 20px;
+}
+
+.comm-card p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1C1B1F;
+}
+
+.lecture-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.lecture-card {
+    width: 100%;
+    min-width: 280px;
+    max-width: 390px;
+    position: relative;
+}
+
+.lecture-card img {
+    position: relative;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.lecture-card button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000000;
+    cursor: pointer;
+}
+
+.lecture-card button svg {
+    pointer-events: none;
+}
+
+p.title-list {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1B1F;
+}
+
+ul.think-list {
+    list-style-type: disc !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1B1F;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 10px;
+}
+ul.think-list li{
+    list-style-type: disc !important;
+}
+
+/* == || THINK TANK SINGLE == */
 
 
 
