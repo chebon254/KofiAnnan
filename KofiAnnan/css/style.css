@@ -5075,7 +5075,8 @@ ul.think-list {
     padding: 0px 0px 0px 20px;
     margin: 0px 0px 0px 10px;
 }
-ul.think-list li{
+
+ul.think-list li {
     list-style-type: disc !important;
 }
 
@@ -5088,27 +5089,32 @@ ul.think-list li{
 section.publications-banner {
     background-image: url('img/publications.png') !important;
 }
-.published-container{
+
+.published-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 40px 40px;
 }
-.published-card{
+
+.published-card {
     height: fit-content;
     min-height: 324px;
     width: 100%;
     max-width: 390px;
     min-width: 280px;
 }
-.published-card img{
+
+.published-card img {
     width: 100%;
 }
-.pub-info{
+
+.pub-info {
     padding: 20px;
 }
-.pub-info h3{
+
+.pub-info h3 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -5116,7 +5122,8 @@ section.publications-banner {
     line-height: 27px;
     color: #1C1B1F;
 }
-.pub-info span{
+
+.pub-info span {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -5124,9 +5131,63 @@ section.publications-banner {
     line-height: 15px;
     color: #1C1B1F;
 }
-.pub-info span u{
+
+.pub-info span u {
     color: #25518C;
 }
+
+section.pub-pagination {
+    padding: 10px 0px 10px;
+}
+
+.pub-pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 30px;
+}
+
+.pub-pagination .pagination-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pub-pagination .pagination-boxes .pagination {
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 0px 60px;
+}
+
+.pub-pagination .pagination-boxes .pagination .page {
+    width: 40px;
+    height: 40px;
+    background: #EFF1FB;
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.pub-pagination .pagination-boxes .pagination .page span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1B1F;
+    cursor: pointer;
+}
+
+.pub-pagination .pagination-boxes .pagination .page.more {
+    width: 82px;
+}
+
 /* == PUBLICATIONS == */
 
 
