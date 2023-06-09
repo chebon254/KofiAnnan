@@ -5089,7 +5089,30 @@ ul.think-list li {
 section.publications-banner {
     background-image: url('img/publications.png') !important;
 }
-
+.filter-top .head.publication{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-top span{
+    font-family: Montserrat;
+font-style: Regular;
+font-size: 16px;
+line-height: 20px;
+}
+.filter-top .pagination-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 35px 0px;
+}
+.filter-top button{
+    background-color: #00000000;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .published-container {
     display: flex;
     align-items: center;
